@@ -57,3 +57,7 @@ function sendMessage() {
       alert("Please fill all required fields.");
     }
   }
+
+  document.getElementById('clickable-image').addEventListener('click', function() {
+    window.location.href = 'https://www.canva.com/design/DAGQRfbAAYs/7RCK_EEicracR-YMNmXtQQ/edit?utm_content=DAGQRfbAAYs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton';
+  });
